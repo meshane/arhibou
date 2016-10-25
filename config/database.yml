@@ -83,5 +83,5 @@ production:
   <<: *default
   database: arhibou_production
   username: arhibou
-  password: <%= ENV['arhibou_DATABASE_PASSWORD'] %>
+  password: <%= ENV['ARHIBOU_DATABASE_PASSWORD'] %>
 
